@@ -1,0 +1,1660 @@
+{
+    "gate2_1": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "A",
+                "size": 1,
+                "desc": "Input A"
+            },
+            {
+                "name": "B",
+                "size": 1,
+                "desc": "Input B"
+            }
+        ],
+        "output": [
+            {
+                "name": "Q",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "AND",
+                "size": 1,
+                "desc": "And Gate Output"
+            },
+            {
+                "name": "NAND",
+                "size": 1,
+                "desc": "Nand Gate Output"
+            },
+            {
+                "name": "OR",
+                "size": 1,
+                "desc": "Or Gate Output"
+            },
+            {
+                "name": "NOR",
+                "size": 1,
+                "desc": "Nor Gate Output"
+            },
+            {
+                "name": "EXOR",
+                "size": 1,
+                "desc": "Exor Gate Output"
+            },
+            {
+                "name": "EXNOR",
+                "size": 1,
+                "desc": "Exnor Gate Output"
+            },
+            {
+                "name": "AB_1",
+                "size": 1,
+                "desc": "Custom gate A+B'"
+            },
+            {
+                "name": "AB_2",
+                "size": 1,
+                "desc": "Custom gate A'+B"
+            },
+            {
+                "name": "AB_3",
+                "size": 1,
+                "desc": "Custom gate A.B'"
+            },
+            {
+                "name": "AB_4",
+                "size": 1,
+                "desc": "Custom gate A'.B"
+            }
+        ]
+    },
+    "gate3_1": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "A",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "B",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "C",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Q",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "AND",
+                "size": 1,
+                "desc": "Required bits for alternate output 1"
+            },
+            {
+                "name": "NAND",
+                "size": 1,
+                "desc": "Required bits for alternate output 2"
+            },
+            {
+                "name": "OR",
+                "size": 1,
+                "desc": "Required bits for alternate output 3"
+            },
+            {
+                "name": "NOR",
+                "size": 1,
+                "desc": "Required bits for alternate output 4"
+            },
+            {
+                "name": "EXOR",
+                "size": 1,
+                "desc": "Required bits for alternate output 5"
+            },
+            {
+                "name": "EXNOR",
+                "size": 1,
+                "desc": "Required bits for alternate output 6"
+            },
+            {
+                "name": "ABC_1",
+                "size": 1,
+                "desc": "Required bits for alternate output 1"
+            },
+            {
+                "name": "ABC_2",
+                "size": 1,
+                "desc": "Required bits for alternate output 2"
+            },
+            {
+                "name": "ABC_3",
+                "size": 1,
+                "desc": "Required bits for alternate output 3"
+            },
+            {
+                "name": "ABC_4",
+                "size": 1,
+                "desc": "Required bits for alternate output 4"
+            },
+            {
+                "name": "ABC_5",
+                "size": 1,
+                "desc": "Required bits for alternate output 5"
+            },
+            {
+                "name": "ABC_6",
+                "size": 1,
+                "desc": "Required bits for alternate output 6"
+            }
+        ]
+    },
+    "ssdecoder": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "IN_NUM",
+                "size": 4,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "SSD_OUT",
+                "size": 7,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "CC_G_A",
+                "size": 7,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "CC_A_G",
+                "size": 7,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "CA_G_A",
+                "size": 7,
+                "desc": "Common Anode with MSB=g and LSB=a"
+            },
+            {
+                "name": "CA_A_G",
+                "size": 7,
+                "desc": "Common Anode with MSB=a and LSB=g"
+            },
+            {
+                "name": "CC_G_A_9",
+                "size": 7,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "CC_A_G_9",
+                "size": 7,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "CA_G_A_9",
+                "size": 7,
+                "desc": "Common Anode with MSB=g and LSB=a"
+            },
+            {
+                "name": "CA_A_G_9",
+                "size": 7,
+                "desc": "Common Anode with MSB=a and LSB=g"
+            }
+        ]
+    },
+    "mux2_1": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "Sel",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "A",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "B",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Q",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Q_req",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q_sel_inverted",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_only_A",
+                "size": 1,
+                "desc": "Common Anode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q_only_B",
+                "size": 1,
+                "desc": "Common Anode with MSB=a and LSB=g"
+            }
+        ]
+    },
+    "mux4_1": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "Sel",
+                "size": 2,
+                "desc": "input in eq"
+            },
+            {
+                "name": "A",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "B",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "C",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "D",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Q",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Q_req",
+                "size": 1,
+                "desc": "Required output"
+            },
+            {
+                "name": "Q_sel_inverted",
+                "size": 1,
+                "desc": "MSB and LSB of sel is interchanged"
+            },
+            {
+                "name": "Q_sel_complemented",
+                "size": 1,
+                "desc": "sel is complemented"
+            }
+        ]
+    },
+    "counterMod16": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "RST",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Q",
+                "size": 4,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Q_up_4bit",
+                "size": 4,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q_down_4bit",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_mod10",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_down_mod10",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_mod5",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_down_mod5",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_4bit_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q_down_4bit_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_mod10_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_down_mod10_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_mod5_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_down_mod5_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            }
+        ]
+    },
+    "counterMod5": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "RST",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Q",
+                "size": 3,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Q_up_4bit",
+                "size": 4,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q_down_4bit",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_mod10",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_down_mod10",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_mod5",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_down_mod5",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_4bit_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q_down_4bit_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_mod10_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_down_mod10_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_up_mod5_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_down_mod5_async",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            }
+        ]
+    },
+    "flipflop": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "RESET",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "SET",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "DATA",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Q",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Q_dff",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q_tff",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            }
+        ]
+    },
+    "halfadder": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "A",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "B",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "S",
+                "size": 1,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "C",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "S_req",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "C_req",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_inverted_C",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "C_inverted_S",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_or",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "C_nand",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_sub",
+                "size": 1,
+                "desc": "Difference bit of Half Subtractor"
+            },
+            {
+                "name": "C_sub",
+                "size": 1,
+                "desc": "Borrow bit of Half Subtractor"
+            }
+        ]
+    },
+    "halfsubtractor": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "A",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "B",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Di",
+                "size": 1,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "Bo",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Di_req",
+                "size": 1,
+                "desc": "Difference bit Required"
+            },
+            {
+                "name": "Bo_req",
+                "size": 1,
+                "desc": "Borrow bit Required"
+            },
+            {
+                "name": "Di_inverted_Bo",
+                "size": 1,
+                "desc": "Bits exchanged"
+            },
+            {
+                "name": "Bo_inverted_Di",
+                "size": 1,
+                "desc": "Bits exchanged"
+            },
+            {
+                "name": "Di_or",
+                "size": 1,
+                "desc": "Or output instead of Exor"
+            },
+            {
+                "name": "Bo_and",
+                "size": 1,
+                "desc": "No bubbled input"
+            },
+            {
+                "name": "Di_xnor",
+                "size": 1,
+                "desc": "Exnor output instead of Exor"
+            },
+            {
+                "name": "Bo_nand",
+                "size": 1,
+                "desc": "No bubbled input and also Nand gate created"
+            },
+            {
+                "name": "Di_adder",
+                "size": 1,
+                "desc": "Sum bit of adder"
+            },
+            {
+                "name": "Bo_adder",
+                "size": 1,
+                "desc": "Carry bit of adder"
+            }
+        ]
+    },
+    "fulladder": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "A",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "B",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "Cin",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Sum",
+                "size": 1,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "Cout",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "S_req",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "C_req",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_inverted_C",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "C_inverted_S",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_or",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "C_nand",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_without_Cin",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "C_without_Cin",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_without_Cin_or",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "C_without_Cin_and",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_sub",
+                "size": 1,
+                "desc": "Di bit of Full Subtractor"
+            },
+            {
+                "name": "C_sub",
+                "size": 1,
+                "desc": "Bo bit of full subtractor"
+            }
+        ]
+    },
+    "fullsubtractor": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "A",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "B",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "Bin",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Di",
+                "size": 1,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "Bo",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Di_req",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Bo_req",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Di_inverted_Bo",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Bo_inverted_Di",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Di_interchange_AB",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Bo_interchange_AB",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Di_interchange_ABin",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Bo_interchange_ABin",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Bo_adder",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            }
+        ]
+    },
+    "rippleCarry_4bit": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "A",
+                "size": 4,
+                "desc": "input in eq"
+            },
+            {
+                "name": "B",
+                "size": 4,
+                "desc": "input in eq"
+            },
+            {
+                "name": "Cin",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Sum",
+                "size": 4,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "Carry",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "S_req",
+                "size": 4,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Cout_req",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_invertedbits",
+                "size": 4,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Cout_invertedbits",
+                "size": 4,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_without_Cin",
+                "size": 4,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Cout_without_Cin",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_Cin_everywhere",
+                "size": 4,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Cout_Cin_everywhere",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "S_inverted_AB",
+                "size": 4,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Cout_inverted_AB",
+                "size": 1,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            }
+        ]
+    },
+    "demux_3_8": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "Sel",
+                "size": 3,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Q",
+                "size": 8,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Q_req",
+                "size": 8,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q_inverted",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_activelow",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "Q_activelowinverted",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            }
+        ]
+    },
+    "clockdivider": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "RST",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Q",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Q2",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q4",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "Q5",
+                "size": 1,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            }
+        ]
+    },
+    "barrelshifter": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "Din",
+                "size": 8,
+                "desc": "input in eq"
+            },
+            {
+                "name": "count",
+                "size": 3,
+                "desc": "input in eq"
+            },
+            {
+                "name": "RL",
+                "size": 1,
+                "desc": "input in eq"
+            },
+            {
+                "name": "RS",
+                "size": 1,
+                "desc": "input in eq"
+            }
+        ],
+        "output": [
+            {
+                "name": "Dout",
+                "size": 8,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Dout_req",
+                "size": 8,
+                "desc": "Common Cathode with MSB=g and LSB=a"
+            },
+            {
+                "name": "D_RLComplement",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "D_RSComplement",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "D_RLRSComplement",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "DRev_RLComp",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "DoutRev",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "DRev_RSComp",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            },
+            {
+                "name": "DRev_RLRSComp",
+                "size": 8,
+                "desc": "Common Cathode with MSB=a and LSB=g"
+            }
+        ]
+    },
+    "sequencedetector": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 4,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "RST",
+                "size": 1,
+                "desc": "Reset input"
+            },
+            {
+                "name": "Ip",
+                "size": 1,
+                "desc": "Required bits for Input"
+            }
+        ],
+        "output": [
+            {
+                "name": "Op",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Op_10101_no_moore",
+                "size": 1,
+                "desc": "Seq detector 1"
+            },
+            {
+                "name": "Op_10101_ov1_moore",
+                "size": 1,
+                "desc": "Seq detector 2"
+            },
+            {
+                "name": "Op_10101_ov3_moore",
+                "size": 1,
+                "desc": "Seq detector 3"
+            },
+            {
+                "name": "Op_11011_no_moore",
+                "size": 1,
+                "desc": "Seq detector 4"
+            },
+            {
+                "name": "Op_11011_ov1_moore",
+                "size": 1,
+                "desc": "Seq detector 5"
+            },
+            {
+                "name": "Op_11011_ov2_moore",
+                "size": 1,
+                "desc": "Seq detector 6"
+            },
+            {
+                "name": "Op_10100_no_moore",
+                "size": 1,
+                "desc": "Seq detector 7"
+            },
+            {
+                "name": "Op_10101_no_mealy",
+                "size": 1,
+                "desc": "Seq detector 1"
+            },
+            {
+                "name": "Op_10101_ov1_mealy",
+                "size": 1,
+                "desc": "Seq detector 2"
+            },
+            {
+                "name": "Op_10101_ov3_mealy",
+                "size": 1,
+                "desc": "Seq detector 3"
+            },
+            {
+                "name": "Op_11011_no_mealy",
+                "size": 1,
+                "desc": "Seq detector 4"
+            },
+            {
+                "name": "Op_11011_ov1_mealy",
+                "size": 1,
+                "desc": "Seq detector 5"
+            },
+            {
+                "name": "Op_11011_ov2_mealy",
+                "size": 1,
+                "desc": "Seq detector 6"
+            },
+            {
+                "name": "Op_10100_no_mealy",
+                "size": 1,
+                "desc": "Seq detector 7"
+            }
+        ]
+    },
+    "counteric7490": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 4,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "CKA",
+                "size": 1,
+                "desc": "input"
+            },
+            {
+                "name": "CKB",
+                "size": 1,
+                "desc": "input"
+            },
+            {
+                "name": "R0",
+                "size": 2,
+                "desc": "Required bits for Input"
+            },
+            {
+                "name": "R9",
+                "size": 2,
+                "desc": "Required bits for Input"
+            }
+        ],
+        "output": [
+            {
+                "name": "QD",
+                "size": 1,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "QC",
+                "size": 1,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "QB",
+                "size": 1,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "QA",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "QD_req",
+                "size": 1,
+                "desc": "1"
+            },
+            {
+                "name": "QC_req",
+                "size": 1,
+                "desc": " 2"
+            },
+            {
+                "name": "QB_req",
+                "size": 1,
+                "desc": "3"
+            },
+            {
+                "name": "QA_req",
+                "size": 1,
+                "desc": "3"
+            },
+            {
+                "name": "QD_invrst",
+                "size": 1,
+                "desc": "1"
+            },
+            {
+                "name": "QC_invrst",
+                "size": 1,
+                "desc": " 2"
+            },
+            {
+                "name": "QB_invrst",
+                "size": 1,
+                "desc": "3"
+            },
+            {
+                "name": "QA_invrst",
+                "size": 1,
+                "desc": "3"
+            },
+            {
+                "name": "QD_ivt",
+                "size": 1,
+                "desc": "1"
+            },
+            {
+                "name": "QC_ivt",
+                "size": 1,
+                "desc": " 2"
+            },
+            {
+                "name": "QB_ivt",
+                "size": 1,
+                "desc": "3"
+            },
+            {
+                "name": "QA_ivt",
+                "size": 1,
+                "desc": "3"
+            }
+        ]
+    },
+    "candymachine": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 4,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "RST",
+                "size": 1,
+                "desc": "Reset input"
+            },
+            {
+                "name": "Ip",
+                "size": 2,
+                "desc": "Required bits for Input"
+            }
+        ],
+        "output": [
+            {
+                "name": "Op",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Op_Mealy",
+                "size": 1,
+                "desc": " 2"
+            },
+            {
+                "name": "Op_MooreG",
+                "size": 1,
+                "desc": "3"
+            },
+            {
+                "name": "Op_MealyG",
+                "size": 1,
+                "desc": "4"
+            }
+        ]
+    },
+    "addsub": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "A",
+                "size": 5,
+                "desc": "A input"
+            },
+            {
+                "name": "B",
+                "size": 5,
+                "desc": "B Input"
+            },
+            {
+                "name": "OP",
+                "size": 1,
+                "desc": "Add/Subtract Input"
+            }
+        ],
+        "output": [
+            {
+                "name": "S",
+                "size": 5,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "Cout",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Sum_req",
+                "size": 5,
+                "desc": " Sum"
+            },
+            {
+                "name": "Cout_req",
+                "size": 1,
+                "desc": "C5 bit"
+            },
+            {
+                "name": "Sum_onlyadd",
+                "size": 5,
+                "desc": " Sum"
+            },
+            {
+                "name": "Cout_onlyadd",
+                "size": 1,
+                "desc": "C5 bit"
+            }
+        ]
+    },
+    "bcdadd": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "A",
+                "size": 4,
+                "desc": "A input"
+            },
+            {
+                "name": "B",
+                "size": 4,
+                "desc": "B Input"
+            }
+        ],
+        "output": [
+            {
+                "name": "S",
+                "size": 4,
+                "desc": "Required bits for output"
+            },
+            {
+                "name": "Cout",
+                "size": 1,
+                "desc": "Required bits for output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "Sum_req",
+                "size": 4,
+                "desc": " Sum"
+            },
+            {
+                "name": "Cout_req",
+                "size": 1,
+                "desc": "C5 bit"
+            },
+            {
+                "name": "Sum_onlyadd",
+                "size": 4,
+                "desc": " Sum"
+            },
+            {
+                "name": "Cout_onlyadd",
+                "size": 1,
+                "desc": "C5 bit"
+            }
+        ]
+    },
+    "johnsoncounter": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "RST",
+                "size": 1,
+                "desc": "Reset input"
+            }
+        ],
+        "output": [
+            {
+                "name": "X",
+                "size": 5,
+                "desc": "Count output"
+            }
+        ],
+        "altoutput": [
+            {
+                "name": "X_req_vhd",
+                "size": 5,
+                "desc": "Count required"
+            },
+            {
+                "name": "X_req_v",
+                "size": 5,
+                "desc": "Count required"
+            }
+        ]
+    },
+    "alu": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "x",
+                "size": 16,
+                "desc": "input x"
+            },
+            {
+                "name": "y",
+                "size": 16,
+                "desc": "input y"
+            },
+            {
+                "name": "operation",
+                "size": 6,
+                "desc": "opcode bits"
+            }
+        ],
+        "output": [
+            {
+                "name": "out",
+                "size": 16,
+                "desc": "Required bits for ALU output"
+            },
+            {
+                "name": "zr",
+                "size": 1,
+                "desc": "Is output zero?"
+            },
+            {
+                "name": "ng",
+                "size": 1,
+                "desc": "Is output negative?"
+            }
+        ],
+        "altoutput": []
+    },
+    "pc": {
+        "testCases": [
+            {
+                "name": "testcase",
+                "size": 8,
+                "desc": "Required bits for defining test cases"
+            }
+        ],
+        "input": [
+            {
+                "name": "in",
+                "size": 15,
+                "desc": "input to pc"
+            },
+            {
+                "name": "reset",
+                "size": 1,
+                "desc": "reset"
+            },
+            {
+                "name": "load",
+                "size": 1,
+                "desc": "load"
+            }
+        ],
+        "output": [
+            {
+                "name": "out",
+                "size": 15,
+                "desc": "Output of PC"
+            }
+        ],
+        "altoutput": []
+    }
+}
